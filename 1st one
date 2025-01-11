@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+    <title>portfolio project</title>
+</head>
+
+<body>
+    <!-- program starts from here -->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">myperfectportfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/services.html">Make Portfolio</a></li>
+                            <li><a class="dropdown-item" href="/services.html">Resume</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/services.html">Guide</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<div class="container-fluid mt-4">
+    <div class="jumbotron">
+        <h1 class="display-4">Make your portfolio here!</h1>
+        <p class="lead">Welcome to myperfectportfolio, where creativity meets purpose.</p>
+      </div>
+</div>
+<form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input type="Name" class="form-control" id="name">
+      </div>
+    
+      <div class="mb-3">
+        <label for="city" class="form-label">City</label>
+        <input type="city" class="form-control" id="city">
+      </div>
+
+      <div class="mb-3">
+        <label for="country" class="form-label">Country</label>
+        <input type="Country" class="form-control" id="Country">
+      </div>
+
+      <div class="mb-3">
+        <label for="pin" class="form-label">Pin</label>
+        <input type="Pin" class="form-control" id="Pin">
+      </div>
+
+      <div class="mb-3">
+        <label for="linkdln" class="form-label">linkdln</label>
+        <input type="linkdln" class="form-control" id="linkdln">
+      </div>
+
+      <div class="mb-3">
+        <label for="Phone" class="form-label">Phone</label>
+        <input type="Phone" class="form-control" id="Phone">
+      </div>
+
+      <div class="mb-3">
+        <label for="Education" class="form-label">Education</label>
+        <input type="Education" class="form-control" id="Education">
+      </div>
+
+      <div class="mb-3">
+        <label for="Skills" class="form-label">Skills</label>
+        <input type="Skills" class="form-control" id="Skills">
+      </div>
+
+      <div class="mb-3">
+        <label for="Course" class="form-label">Course</label>
+        <input type="Course" class="form-control" id="Course">
+      </div>
+
+      <div class="mb-3">
+        <label for="Cerficate" class="form-label">Cerficate</label>
+        <input type="Cerficate" class="form-control" id="Cerficate">
+      </div>
+
+      <div class="mb-3">
+        <label for="Native Language" class="form-label">Native Language</label>
+        <input type="Native Language" class="form-control" id="Native Language">
+      </div>
+
+      <div class="mb-3">
+        <label for="Proficient Language" class="form-label">Proficient Language</label>
+        <input type="Proficient Language" class="form-control" id="Proficient Language">
+      </div>
+
+      <div class="mb-3">
+        <label for="Experience" class="form-label">Experience</label>
+        <input type="Experience" class="form-control" id="Experience">
+      </div>
+
+      <div class="mb-3">
+        <label for="Work History" class="form-label">Work History</label>
+        <input type="Work History" class="form-control" id="Work History">
+      </div>
+
+      <div class="mb-3">
+        <label for="professional Summary" class="form-label">professional Summary</label>
+        <input type="professional Summary" class="form-control" id="professional Summary">
+      </div>
+
+    
+      
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+    <!-- Optional JavaScript; choose one of the two!  -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
