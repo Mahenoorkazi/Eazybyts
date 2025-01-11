@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio project</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <a id="logo"href="#">myperfectportfolio</a>
+        <a href="#">HOME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+        <input placeholder="search here">
+        <button>Search</button>
+    </div>
+
+    <h1>Make your portfolio here</h1>
+<div id="box1">
+    
+    <label for="name">Name:</label><input type="text"id="name"placeholder="type your name"><br>
+    <label for="email">Email:</label><input type="text"id="email"placeholder="type your email"><br>
+    <label for="linkdln">linkdln:</label><input type="text"id="lindln"placeholder="username/url"><br>
+    <label for="Gender">Gender:</label>
+    <input type="radio">Male <input type="radio">Female<input type="radio">Other<br>
+    <label for="Phone">Phone:</label><input type="text"id="phone"placeholder="9456******"><br>
+    <label for="Country">Country:</label><input type="text"id="Country"placeholder="type your country name"><br>
+    <label for="city">City:</label><input type="text"id="city"placeholder="type your city name"><br>
+    <label for="pin">pin:</label><input type="text"id="pin"placeholder="area pin"><br>
+    <label for="Education">Education:</label><input type="text"id="Education"placeholder="current/past"><br>
+    <label for="skills">skills:</label><input type="text"id="skills"placeholder="eg:html css js"><br>
+    <label for="course">course:</label><input type="text"id="course"placeholder="eg:web development"><br>
+    <label for="Certificate">Certificate:</label><input type="text"id="Certificate"placeholder="certification at"><br>
+    <label for="Native langauage">Native langauage:</label><input type="text"id="Native langauage"placeholder="type your mother tongue"><br>
+    <label for="proficient langauage">proficient langauage:</label><input type="text"id="proficient langauage"placeholder="eg:English"><br>
+    <label for="Work History">Work History:</label><input type="text"id="Work History"placeholder="company name "><br>
+    <label for="Professional Summary">Professional Summary:</label><input type="text"id="Professional Summary"placeholder="carrier sumamry"><br>
+    <label for="Institute Name">Institute Name:</label><input type="text"id="Institute name"placeholder="type your institute name"><br>
+
+    
+</div>
+    
+</form>
+    
+    
+</body>
+</html>
+
+//css file
+*{
+    padding: 0;
+    margin: 0;
+    color: bisque;
+}
+
+#navbar{
+    height: 50px;
+    background-color: #101820;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+a{
+    text-decoration:none ;
+    margin-right: 170px;
+    
+}
+button{
+   background-color: #f08804;
+}
+h1{
+    color: #c4086f;
+    text-align: center;
+    background-color: #dac1cf;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+input{
+    color: black;
+}
+label{
+    color: black;
+    text-align: center;
+}
+#box1{
+    background-image: url("computer.jpj.jpg");
+    background-size: cover;
+    justify-content: baseline;
+    align-items: center;
+    align-content: center;
+    font-size: xx-large;
+}
+::placeholder{
+    text-align: left;
+}
+input[type="radio"]{
+    background-color: black;
+}
+label{
+    color:black(4, 99, 102)
+    padding:10px 50px;
+    display:inline;
+    height:40px;
+}
